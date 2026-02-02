@@ -109,6 +109,10 @@
         height: auto;
     }
 
+    .locations-list {
+        padding: 4rem 1.5rem;
+    }
+
     .location-bg-reveal {
         display: none;
         /* Hide huge images on mobile, or stack */
@@ -116,10 +120,15 @@
     }
 
     .loc-header h3 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
+        /* Significant reduction for mobile */
     }
 
-    .locations-list {
-        padding: 4rem 2rem;
+    .location-item {
+        padding: 1.5rem 0;
+    }
+
+    .coords {
+        font-size: 0.7rem;
     }
 }

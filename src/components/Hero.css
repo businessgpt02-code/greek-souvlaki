@@ -92,15 +92,23 @@
     .hero-grid {
         grid-template-columns: 1fr;
         grid-template-rows: auto 1fr auto;
-        gap: 1rem;
+        gap: 0.5rem;
+        padding: 4rem 1rem;
+    }
+
+    .hero-text-left,
+    .hero-text-right {
+        height: auto;
     }
 
     .hero-text-left h1,
     .hero-text-right h1 {
         font-size: 18vw;
+        line-height: 1;
     }
 
     .image-container {
         height: 50vh;
+        border-radius: 100px 100px 0 0;
     }
 }

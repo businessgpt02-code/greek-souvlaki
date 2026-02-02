@@ -105,16 +105,43 @@
 }
 
 @media (max-width: 900px) {
+    .product-showcase {
+        padding: 4rem 1rem;
+    }
+
     .product-sticky-wrapper {
         flex-direction: column;
+        gap: 3rem;
     }
 
     .sticky-info {
         position: static;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .sticky-info h2 {
+        font-size: 3rem;
+    }
+
+    .sticky-info p {
+        margin: 0 auto 2rem;
+    }
+
+    .product-visuals-right {
+        gap: 4rem;
+        padding-top: 0;
+    }
+
+    .visual-card {
+        width: 100%;
     }
 
     .visual-card img {
-        height: 400px;
+        height: 350px;
+    }
+
+    .visual-card.offset {
+        align-self: center;
     }
 }
