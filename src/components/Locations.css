@@ -114,9 +114,11 @@
     }
 
     .location-bg-reveal {
-        display: none;
-        /* Hide huge images on mobile, or stack */
-        height: 300px;
+        display: block;
+        /* Show map/image on mobile */
+        height: 60vh;
+        width: 100%;
+        margin-top: 2rem;
     }
 
     .loc-header h3 {
