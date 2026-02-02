@@ -22,10 +22,25 @@
 .hero-text-left,
 .hero-text-right {
     display: flex;
+    flex-direction: column;
+    /* Stack h1 and h2 */
     justify-content: center;
+    align-items: center;
     z-index: 10;
     pointer-events: none;
 }
+
+.hero-text-right h2 {
+    font-family: 'Diogenes', serif;
+    font-size: 4vw;
+    color: var(--color-white);
+    margin-top: 0.5rem;
+    text-transform: none;
+    /* Keep natural case or uppercase as needed */
+}
+
+/* Specific styling for mobile moved to media query block below if needed, 
+   but 4vw might be too small on mobile. Let's start generic and override. */
 
 .hero-text-left h1,
 .hero-text-right h1 {
@@ -123,6 +138,12 @@
 
     .hero-text-right {
         margin-top: -3rem;
+
+        .hero-text-right h2 {
+            font-size: 10vw;
+            margin-top: 0;
+            line-height: 1;
+        }
     }
 
     .hero-center-image {

@@ -30,6 +30,7 @@ const Hero = () => {
 
                 <motion.div style={{ y: y2 }} className="hero-text-right">
                     <h1>SOUVLAKI</h1>
+                    <h2>Nha Trang</h2>
                 </motion.div>
             </div>
 
