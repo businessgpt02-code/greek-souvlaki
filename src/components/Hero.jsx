@@ -11,10 +11,6 @@ const Hero = () => {
     return (
         <section className="hero">
             <div className="hero-grid">
-                <motion.div style={{ y: y1 }} className="hero-text-left">
-                    <h1>GREEK</h1>
-                </motion.div>
-
                 <div className="hero-center-image">
                     {/* Replaced generic background with a composed aesthetic */}
                     <motion.div
@@ -28,10 +24,15 @@ const Hero = () => {
                     </motion.div>
                 </div>
 
-                <motion.div style={{ y: y2 }} className="hero-text-right">
-                    <h1>SOUVLAKI</h1>
-                    <h2>Nha Trang</h2>
-                </motion.div>
+                <motion.img
+                    src="/images/greek-souvlaki-logo.png"
+                    alt="Greek Souvlaki Nha Trang"
+                    className="hero-logo"
+                    style={{ x: "-50%", y: "-50%" }}
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: 0.5, duration: 1 }}
+                />
             </div>
 
             <motion.div style={{ opacity }} className="hero-footer">
