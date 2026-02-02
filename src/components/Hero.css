@@ -29,14 +29,17 @@
 
 .hero-text-left h1,
 .hero-text-right h1 {
-    font-size: 12vw;
+    font-family: 'Diogenes', serif;
+    font-size: 15vw;
+    /* Increased slightly for thin font */
     line-height: 0.8;
     letter-spacing: -0.05em;
     color: var(--color-white);
-    mix-blend-mode: exclusion;
+    text-transform: uppercase;
 }
 
 .outline-text {
+    /* Deprecated or unused now */
     color: transparent !important;
     -webkit-text-stroke: 2px var(--color-gold);
 }

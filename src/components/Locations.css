@@ -19,7 +19,7 @@
 
 .location-item {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 3rem 0;
+    padding: 1.5rem 0;
     cursor: none;
     /* Let custom cursor handle hovering */
     transition: opacity 0.3s;
@@ -36,13 +36,17 @@
 .loc-header {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 .loc-header h3 {
-    font-size: 4rem;
+    font-family: 'Diogenes', serif;
+    font-size: 1.8rem;
+    line-height: 1.2;
     margin: 0;
     transition: transform 0.3s ease;
+    flex: 1;
+    padding-right: 1rem;
 }
 
 .location-item:hover h3 {
@@ -68,6 +72,7 @@
     font-size: 0.8rem;
     letter-spacing: 0.1em;
     opacity: 0.7;
+    flex-shrink: 0;
 }
 
 .loc-desc {

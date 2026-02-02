@@ -7,7 +7,7 @@ const MAP_KEY = "YOUR_API_KEY";
 const locations = [
     {
         id: 1,
-        name: "Downtown",
+        name: "Downtown - Greek Souvlaki Branch 2",
         coords: "12.2333° N, 109.1962° E",
         lat: 12.2333,
         lng: 109.1962,
@@ -16,7 +16,7 @@ const locations = [
     },
     {
         id: 2,
-        name: "SHORELINE",
+        name: "SHORELINE - Greek Souvlaki Branch 3",
         coords: "12.2378° N, 109.1938° E",
         lat: 12.2378,
         lng: 109.1938,
@@ -25,7 +25,7 @@ const locations = [
     },
     {
         id: 3,
-        name: "Oldtown",
+        name: "Oldtown - Greek Souvlaki Branch 1",
         coords: "15.8786° N, 108.3252° E",
         lat: 15.8786,
         lng: 108.3252,

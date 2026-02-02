@@ -14,7 +14,7 @@ const Contact = () => {
                     transition={{ duration: 0.8 }}
                 >
                     <span className="eyebrow">The Launch</span>
-                    <h2>Spring 2026</h2>
+                    <h2>COMING SOON</h2>
 
 
                 </motion.div>

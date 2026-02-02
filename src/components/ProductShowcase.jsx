@@ -13,12 +13,12 @@ const ProductShowcase = () => {
                         transition={{ duration: 1 }}
                         className="sticky-info"
                     >
-                        <span className="chapter-number">01</span>
+                        <span className="chapter-number"></span>
                         <h2>The<br />Icon</h2>
                         <p>
                             Pure flavour. Fire-grilled, freshly paired, and simply seasoned with salt, oregano, and lemon.
                         </p>
-                        <button className="btn-outline interactive">The Menu</button>
+                        <a href="/menu.pdf" download className="btn-outline interactive">Download Menu</a>
                     </motion.div>
                 </div>
 

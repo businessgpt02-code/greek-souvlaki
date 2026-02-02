@@ -2,8 +2,8 @@
   /* Updated Palette - Richer, Darker, More Premium */
   --color-gold: #C6A87C;
   --color-gold-light: #E5D5B5;
-  --color-navy: #051A30;
-  --color-navy-light: #0A2E52;
+  --color-navy: #0047AB;
+  --color-navy-light: #2E6FCE;
   --color-stone: #EBEBE8;
   --color-dark: #0F0F0F;
   --color-white: #FFFFFF;
@@ -12,6 +12,13 @@
   --font-body: 'Lato', sans-serif;
 
   --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@font-face {
+  font-family: 'Diogenes';
+  src: url('/fonts/Diogenes.ttf.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {

@@ -12,7 +12,7 @@ const Hero = () => {
         <section className="hero">
             <div className="hero-grid">
                 <motion.div style={{ y: y1 }} className="hero-text-left">
-                    <h1 className="outline-text">GREEK</h1>
+                    <h1>GREEK</h1>
                 </motion.div>
 
                 <div className="hero-center-image">
@@ -34,7 +34,7 @@ const Hero = () => {
             </div>
 
             <motion.div style={{ opacity }} className="hero-footer">
-                <span className="scrolling-text">EST. 2026 • COMING SOON • </span>
+                <span className="scrolling-text">• WEBSITE •  COMING SOON • </span>
             </motion.div>
         </section>
     );

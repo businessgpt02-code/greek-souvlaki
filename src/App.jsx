@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import ProductShowcase from './components/ProductShowcase';
 import Locations from './components/Locations';
 import Contact from './components/Contact';
+import FloatingContact from './components/FloatingContact';
 import './App.css';
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
       <ProductShowcase />
       <Locations />
       <Contact />
+      <FloatingContact />
     </div>
   );
 }
