@@ -16,7 +16,7 @@ const locations = [
     },
     {
         id: 2,
-        name: "Hoi An - GREEK SOUVLAKI BRANCH 1",
+        name: "Nha Trang - GREEK SOUVLAKI BRANCH 3",
         coords: "12.2378° N, 109.1938° E",
         lat: 12.2378,
         lng: 109.1938,
@@ -25,7 +25,7 @@ const locations = [
     },
     {
         id: 3,
-        name: "Oldtown - Greek Souvlaki Branch 1",
+        name: "Hoi An - GREEK SOUVLAKI BRANCH 4",
         coords: "15.8786° N, 108.3252° E",
         lat: 15.8786,
         lng: 108.3252,
