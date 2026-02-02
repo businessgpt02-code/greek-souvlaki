@@ -91,35 +91,42 @@
 @media (max-width: 768px) {
     .hero-grid {
         grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr auto;
-        gap: 0;
-        padding: 6rem 1rem 4rem;
-        /* Added top padding to prevent cropping */
+        grid-template-rows: auto auto auto;
+        /* Use auto instead of 1fr for middle */
+        gap: 2rem;
+        /* Explicit gap instead of stretching */
+        padding: 5rem 1rem 3rem;
         align-content: center;
+        /* Center content vertically */
+        height: 100%;
     }
 
     .hero-text-left,
     .hero-text-right {
         height: auto;
-        padding: 1rem 0;
+        padding: 0;
+        z-index: 20;
+        /* Ensure text is above image if overlap */
     }
 
     .hero-text-left h1,
     .hero-text-right h1 {
         font-size: 15vw;
-        /* Reduced from 18vw to fit */
-        line-height: 1;
+        line-height: 0.9;
     }
 
     .hero-center-image {
-        height: auto;
-        flex: 1;
-        min-height: 200px;
-        /* Ensure image has space */
+        height: 40vh;
+        /* Fixed height approx */
+        flex: none;
+        /* Don't grow */
+        width: 100%;
     }
 
     .image-container {
         height: 100%;
         border-radius: 100px 100px 0 0;
     }
+
+    /* Slightly overlap text if needed for style, or just keep compact gap */
 }
