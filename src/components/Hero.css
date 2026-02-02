@@ -92,23 +92,34 @@
     .hero-grid {
         grid-template-columns: 1fr;
         grid-template-rows: auto 1fr auto;
-        gap: 0.5rem;
-        padding: 4rem 1rem;
+        gap: 0;
+        padding: 6rem 1rem 4rem;
+        /* Added top padding to prevent cropping */
+        align-content: center;
     }
 
     .hero-text-left,
     .hero-text-right {
         height: auto;
+        padding: 1rem 0;
     }
 
     .hero-text-left h1,
     .hero-text-right h1 {
-        font-size: 18vw;
+        font-size: 15vw;
+        /* Reduced from 18vw to fit */
         line-height: 1;
     }
 
+    .hero-center-image {
+        height: auto;
+        flex: 1;
+        min-height: 200px;
+        /* Ensure image has space */
+    }
+
     .image-container {
-        height: 50vh;
+        height: 100%;
         border-radius: 100px 100px 0 0;
     }
 }
