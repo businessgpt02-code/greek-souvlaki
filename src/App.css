@@ -1,0 +1,9 @@
+/* App specific styles can go here if needed, or keep empty */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background: var(--color-blue-dark);
+  color: var(--color-stone);
+  font-size: 0.9rem;
+  font-family: var(--font-heading);
+}
