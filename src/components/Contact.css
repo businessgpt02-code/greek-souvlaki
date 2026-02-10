@@ -1,7 +1,7 @@
 .footer-section {
     background-color: var(--color-navy);
     color: var(--color-white);
-    padding: 8rem 2rem 2rem;
+    padding: 4rem 2rem 2rem;
     position: relative;
     overflow: hidden;
 }
@@ -10,8 +10,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    min-height: 60vh;
+    justify-content: center;
+    min-height: 30vh;
 }
 
 .newsletter-block {

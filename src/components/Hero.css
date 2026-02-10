@@ -59,12 +59,57 @@
     position: absolute;
     bottom: 2rem;
     width: 100%;
-    text-align: center;
-    font-family: var(--font-body);
-    letter-spacing: 0.5em;
-    font-size: 0.8rem;
-    color: var(--color-gold-light);
+    display: flex;
+    justify-content: center;
     z-index: 20;
+}
+
+.scroll-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.mouse {
+    width: 26px;
+    height: 42px;
+    border: 2px solid var(--color-gold);
+    border-radius: 14px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.wheel {
+    width: 4px;
+    height: 6px;
+    background-color: var(--color-gold);
+    border-radius: 2px;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: scroll 1.5s infinite;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+        top: 10px;
+    }
+
+    100% {
+        opacity: 0;
+        top: 30px;
+    }
+}
+
+.scroll-text {
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    color: var(--color-gold);
+    text-transform: uppercase;
 }
 
 @media (max-width: 768px) {

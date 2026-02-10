@@ -36,7 +36,13 @@ const Hero = () => {
             </div>
 
             <motion.div style={{ opacity }} className="hero-footer">
-                <span className="scrolling-text">• WEBSITE •  COMING SOON • </span>
+                <div className="scroll-indicator">
+                    <div className="mouse">
+                        <div className="wheel"></div>
+                    </div>
+
+                    <span className="scroll-text">SCROLL DOWN</span>
+                </div>
             </motion.div>
         </section>
     );
